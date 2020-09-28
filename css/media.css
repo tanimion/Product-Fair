@@ -1,0 +1,52 @@
+/* large device */
+@media(max-width:1199px) {
+    .get-content ul {
+        width: 32%;
+    }
+}
+
+/* medium device */
+@media(max-width:991px) {
+    .garden-content img {
+        height: 250px;
+    }
+
+    .garden h1 {
+        font-size: 45px;
+    }
+
+    .get-content ul li a {
+        padding: 10px 14px;
+    }
+}
+
+/* small device */
+@media(max-width:767px) {
+    .banner h1 {
+        font-size: 43px;
+    }
+
+    .about-us h1 {
+        font-size: 45px;
+    }
+
+    .garden h1 {
+        font-size: 44px;
+    }
+
+    .garden-content img {
+        width: 252px;
+    }
+
+    .get-content h1 {
+        font-size: 45px;
+    }
+
+    .get-content ul {
+        width: 33%;
+    }
+
+    footer p {
+        font-size: 17px;
+    }
+}
